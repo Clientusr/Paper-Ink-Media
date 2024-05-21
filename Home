@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Ink Media</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            border-bottom: 2px solid #fdd835;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fdd835;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery div {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: #f9f9f9;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="your-logo-url.png" alt="Paper Ink Media Logo">
+        <h1>Paper Ink Media</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#gallery">Media Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Paper Ink Media! We have years of experience in delivering high-quality print and design services. Our team is dedicated to providing innovative and personalized solutions to meet all your needs. Whether it's for events, retail, food and beverages, personalized birthday items, name stickers, or school materials, we've got you covered.</p>
+    </div>
+    <div class="container" id="gallery">
+        <h2>Media Gallery</h2>
+        <div class="gallery">
+            <div>
+                <h3>Events</h3>
+                <img src="event-sample.jpg" alt="Events">
+                <p>Browse through our event projects.</p>
+            </div>
+            <div>
+                <h3>Retail</h3>
+                <img src="retail-sample.jpg" alt="Retail">
+                <p>See our retail designs and prints.</p>
+            </div>
+            <div>
+                <h3>Food and Beverages</h3>
+                <img src="food-sample.jpg" alt="Food and Beverages">
+                <p>Check out our work for the food and beverage industry.</p>
+            </div>
+            <div>
+                <h3>Personalized Birthday</h3>
+                <img src="birthday-sample.jpg" alt="Personalized Birthday">
+                <p>Explore our personalized birthday designs.</p>
+            </div>
+            <div>
+                <h3>Name Stickers</h3>
+                <img src="name-sticker-sample.jpg" alt="Name Stickers">
+                <p>View our custom name stickers.</p>
+            </div>
+            <div>
+                <h3>Schools</h3>
+                <img src="school-sample.jpg" alt="Schools">
+                <p>Discover our school-related projects.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to work with us, feel free to get in touch!</p>
+        <p>Email: <a href="mailto:info@paperinkmedia.com">info@paperinkmedia.com</a></p>
+        <p>Phone: +123-456-7890</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Paper Ink Media. All rights reserved.</p>
+    </footer>
+</body>
+</html>
